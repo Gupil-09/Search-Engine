@@ -1,0 +1,109 @@
+body 
+{
+    font-family: Arial, sans-serif;
+    background: repeating-linear-gradient(45deg, #92c9b1, #92c9b1 20px, #b3e0d2 20px, #b3e0d2 40px);
+    margin: 0;
+    padding: 0;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+}
+.container 
+{
+    background: rgba(0, 0, 0, 0.3);
+    padding: 20px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.8);
+    border-radius: 15px;
+    color: white;
+    width: 700px;
+    height: auto;
+}
+h1, h2 
+{
+    text-align: center;
+}
+.search-bar 
+{
+    display: flex;
+    justify-content: center;
+    margin-bottom: 20px;
+}
+#searchInput 
+{
+    padding: 10px;
+    width: 70%;
+    border: 1px solid #ccc;
+    border-radius: 7px;
+}
+#searchBtn 
+{
+    padding: 10px;
+    margin-left: 10px;
+    border: none;
+    background-color: #28a745;
+    color: white;
+    cursor: pointer;
+    border-radius: 7px;
+    transition: 0.5s;
+}
+#searchBtn:hover 
+{
+    background-color: #218838;
+}
+.search-history 
+{
+    margin-top: 20px;
+}
+ul 
+{
+    list-style-type: none;
+    padding: 0;
+}
+li 
+{
+    background-color: #f8f9fa;
+    margin: 5px 0;
+    padding: 10px;
+    border-radius: 4px;
+    color: black;
+}
+#clearHistoryBtn 
+{
+    margin-top: 10px;
+    width: 100%;
+    padding: 10px;
+    border: none;
+    background-color: #dc3545;
+    color: white;
+    cursor: pointer;
+    border-radius: 4px;
+    transition: 0.5s;
+}
+#clearHistoryBtn:hover 
+{
+    background-color: #cc0d20;
+}
+li 
+{
+    background-color: #f8f9fa;
+    margin: 5px 0;
+    padding: 10px;
+    border-radius: 4px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+.delete-btn 
+{
+    background-color: #dc3545;
+    color: white;
+    border: none;
+    padding: 5px 10px;
+    cursor: pointer;
+    border-radius: 4px;
+}
+.delete-btn:hover 
+{
+    background-color: #c82333;
+}
